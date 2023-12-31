@@ -44,7 +44,7 @@ def main():
 
     # Instantiate the model, loss function, and optimizer
     model = SimpleNN()
-    arduino_visualizer = Arduino_Visualizer(list(model.parameters()), baudrate=9600, port='COM8')
+    arduino_visualizer = Arduino_Visualizer(list(model.parameters()), baudrate=9600, port='COM3')
     criterion = nn.CrossEntropyLoss()
     optimizer = optim.Adam(model.parameters(), lr=0.001)
 
