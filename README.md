@@ -1,9 +1,7 @@
 # nn-visualizer
-Project for visualisation of pytorch training process using arduino + MAX7219 8x32 LED  matrix
+Project for visualisation of pytorch training process using arduino + MAX7219 8x32 LED  matrix.
 
-![alt text][imgs/gif.gif]
-
-
+![Alt NN-Visualizer](imgs/gaf.gif)
 ### Installation
 
 This package can be installed in any pytorch project by cloning the repository and running the following command:
